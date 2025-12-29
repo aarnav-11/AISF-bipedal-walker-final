@@ -2,7 +2,7 @@
 
 A bio-inspired neural network controller for the BipedalWalker-v3 environment using **oscillating synaptic weights** and **FitzHugh-Nagumo oscillators** as Central Pattern Generators (CPG).
 
-## 🎬 Demo
+## Demo
 
 Trained walker achieving 300+ reward:
 
