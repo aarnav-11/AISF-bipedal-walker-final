@@ -41,8 +41,9 @@ env/
 results/
 gifs/
 
-# Keep docs/videos for README demos
+# Keep docs/ for README assets
 !docs/
+!docs/*.png
 !docs/videos/
 !docs/videos/*.mp4
 !docs/videos/*.gif
