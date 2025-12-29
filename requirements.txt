@@ -1,0 +1,9 @@
+# Dynamic Synapse Neural Network for Bipedal Walker
+# Based on: "A Bio-inspired Reinforcement Learning Rule to Optimise Dynamical Neural Networks for Robot Control"
+
+gymnasium>=0.29.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+scipy>=1.10.0
+rich>=13.0.0
+
