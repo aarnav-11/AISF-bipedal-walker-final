@@ -41,13 +41,6 @@ env/
 results/
 gifs/
 
-# Keep docs/ for README assets
-!docs/
-!docs/*.png
-!docs/videos/
-!docs/videos/*.mp4
-!docs/videos/*.gif
-
 # Checkpoints
 *.pkl
 
@@ -55,7 +48,7 @@ gifs/
 *.log
 tensorboard/
 
-# Matplotlib
+# Generated files (ignore by default)
 *.png
 *.pdf
 
@@ -63,3 +56,9 @@ tensorboard/
 temp_*/
 tmp/
 
+# BUT keep docs/ for README assets (must come AFTER the ignore rules)
+!docs/
+!docs/*.png
+!docs/videos/
+!docs/videos/*.mp4
+!docs/videos/*.gif
